@@ -2,7 +2,7 @@ import manejoArchivo from "./manejoArchivo.js";
 import express from "express";
 
 const app = express();
-const PORT = 4000;
+const PORT = 8080;
 const manager = new manejoArchivo("./src/datos.json");
 
 app.use(express.urlencoded({ extended: true }));
